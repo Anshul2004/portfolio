@@ -1,0 +1,21 @@
+/*11/9/19 
+  - Added On Load*/
+.onLoad{
+  position: fixed;
+  z-index: -1;
+}
+
+.jumbotron{
+  color: white;
+}
+
+.about{
+  background: lightgrey;
+  padding: 5%;
+  margin: 5%;
+  margin-top: 10%;
+}
+
+.about small{
+  color: grey;
+}

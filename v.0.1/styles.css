@@ -1,0 +1,46 @@
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 32px 0;
+  margin-top: 20px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.card{
+  margin-top: 2%;
+}
+.card img{
+  margin-top: 7%;
+}
+.right{
+  margin-right: -2%;
+}
+.left{
+  margin-left: -2%;
+}
+.about{
+  line-height: 200%;
+}s
+
+.main-proj{
+  margin-top: 0% !important;
+}
+.main-card{
+  margin-top: 10%;
+}
