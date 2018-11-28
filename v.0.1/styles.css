@@ -28,6 +28,9 @@ footer li{
 .card img{
   margin-top: 7%;
 }
+.main-card img{
+  margin-top: 2%;
+}
 .right{
   margin-right: -2%;
 }
@@ -36,11 +39,12 @@ footer li{
 }
 .about{
   line-height: 200%;
-}s
+}
 
 .main-proj{
-  margin-top: 0% !important;
+  margin-bottom: 20px;
 }
+
 .main-card{
   margin-top: 10%;
 }
