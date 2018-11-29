@@ -43,8 +43,12 @@ footer li{
 
 .main-proj{
   margin-bottom: 20px;
+  margin-left: 10%;
 }
 
 .main-card{
   margin-top: 10%;
+}
+.resume p{
+  text-indent: 4%;
 }
