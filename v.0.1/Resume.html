@@ -1,52 +1,78 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <link type="text/css" rel="stylesheet" href="styles.css">
         <link type="text/css" rel="stylesheet" href="bootstrap-4.1.2-dist/css/bootstrap.css">
+        <!--Custom Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     </head>
-    <body>
-        <div class="container" width="100%">
-            <!--Navigation bar-->
-            <nav class="nav nav-fill nav-pills justify-content-center">
-                <a class="nav-item nav-link" href="index.html">Home</a>
-                <a class="nav-item nav-link" href="Kashyap_AboutMe.html">About Me</a>
-                <a class="nav-item nav-link active" href="#">Resume</a>
-                <a class="nav-item nav-link" href="Projects.html">Projects</a>
-                <a class="nav-item nav-link" href="Contact.html">Contact Me</a>
-            </nav>
-            <!--Title and about me info-->
-            <div class="jumbotron">
-                <h2>Resume</h2>
-            </div>
-            <!--Content-->
-            <div class="container resume" style="margin-bottom: 20%; margin-top: 5%">
-                <h4>Career Goals and Objective:</h4>
-                <p>I want to become a deep learning expert. Machine Learning and Artificial Intelligence is the future. I also love developing games and I hope to become a virtual reality developer as well.</p>
-                <h4>Education:</h4>
-                <p>I am a freshman at Dublin High School located in Dublin, CA. Currently, I am enrolled in my school's Computer Science class. Some colleges I am interested in are Georgia Tech, Berkeley, and MIT. I plan on doing Computer Science and Business double major at a top level engineering college</p>
-                <h4>Work/Volunteer:</h4>
-                <p>As a freshman, I have little volunteer experience compared to my seniors. Every week, I spend approximately 5 hours volunteering at my local library and a non-profit chess association as well. I currently have approximately 40 hours of volunteering experience (11/15/18)</p>
-                <h4>Skills:</h4>
-                <p>I am a certified deep learning developer. I have two certificates from the first two Deep Learning courses on Coursera which I received on July 15, 2018 and August 10, 2018. I also have a nanodegree from udacity for the Artificial Intelligence course which I received on September 17, 2018. As of now, I am working on the third course in hopes of launching my first application by the end of this year (2018). I am an experienced app and desktop application developer and I will be launching my first app to the App store as of December 25, 2018.</p>
-                <h4>Academic Highlight and Awards:</h4>
-                <p>I have numerous chess achievements with multiple 1st place awards as well. In 8th grade, I received an award for being the most improved player in the entire school (rating wise).</p>
-                <h4>Extracurricular Activities:</h4>
-                <p>I love playing chess and to swim as well. I am a part of my school’s robotics team.</p>
-            </div>
+    <body id="resume">
+        <!--Navigation bar-->
+        <nav class="nav nav-fill nav-pills justify-content-center">
+            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="Kashyap_AboutMe.html">About Me</a>
+            <a class="nav-item nav-link active" href="#">Resume</a>
+            <a class="nav-item nav-link" href="Projects.html">Projects</a>
+            <a class="nav-item nav-link" href="Contact.html">Contact Me</a>
+        </nav>
+        <!--Title Area-->
+        <div class="container title-part-resume">
+            <!--Title info-->
+            <h1>Resume</h1>
+        </div>
+        <!--Content-->
+        <div class="resume" style="padding-bottom: 10%; padding-top: 5%">
+            <h1>Some Stuff About Me</h1>
+            <hr>
+            <br>
+            <br>
+            <h4>Career Goals and Objective:</h4>
+            <p>I want to become a deep learning expert since I believe Machine Learning and Artificial Intelligence is the future. I also love developing games and I hope to become a virtual reality developer as well.</p>
+            <h4>Education:</h4>
+            <ul>
+                <li>I am a freshman at Dublin High School located in Dublin, CA</li>
+                <li>Some colleges I am interested in are Georgia Tech, UC Berkeley, and MIT</li> 
+                <li>I plan on doing Computer Science and Business double major at a top level engineering college</li>
+            </ul>
+            <h4>Work/Volunteer:</h4>
+            <ul>
+                <li>As a freshman, I have little volunteer experience compared to my seniors</li> 
+                <li>Every week, I spend approximately 5 hours volunteering at my local library and a non-profit chess association as well</li> 
+                <li>I currently have approximately 40 hours of volunteering experience (11/15/18)</li>
+            </ul>
+            <h4>Skills:</h4>
+            <ul>
+                <li>I am a certified deep learning developer</li> 
+                <li>I have two certificates from the first two Deep Learning courses on Coursera which I received on July 15, 2018 and August 10, 2018</li> 
+                <li>I also have a nanodegree from udacity for the Artificial Intelligence course which I received on September 17, 2018</li>
+                <li>As of now, I am working on the third course in hopes of launching my first application by the end of this year (2018)</li>
+                <li>I am an experienced app and desktop application developer and I will be launching my first app to the App store as of December 25, 2018</li>
+            </ul>
+            <h4>Academic Highlight and Awards:</h4>
+            <ul>
+                <li>I have numerous chess achievements with multiple 1st place awards as well</li> 
+                <li>In 8th grade, I received an award for being the most improved player in the entire school (rating wise)</li>
+            </ul>
+            <h4>Extracurricular Activities:</h4>
+            <ul>
+                <li>I love playing chess and to swim as well</li>
+                <li>I am a part of my school’s robotics team</li>
+            </ul>
         </div>
         <!--Footer-->
-        <footer class="container">
+        <footer class="mainfooter">
             <div class="row">
                 <p class="col-sm-4s">&copy; 2018 Anshul</p>
                 <div class="col-6">
                     <a href="mailto:cyberblaze2004@gmail.com">
-                        <img src="Images/footer1.jpg" style="max-width: 100px; margin-left: 80%; margin-top: -5%">
+                        <img src="Images/email.png" style="max-width: 100px; margin-left: 80%; margin-top: -5%">
                     </a>
                 </div>
                 <div class="col-2">
                     <a href="https://www.dublin.k12.ca.us/dhs" target="_blank">
-                        <img src="Images/footer2.jpg" style="max-width: 100px; margin-left: 200%; margin-top: -40%">
+                        <img src="Images/dhs.png" style="max-width: 100px; margin-left: 200%; margin-top: -17%">
                     </a>
                 </div>
             </div>
